@@ -1,0 +1,35 @@
+baseURL = "https://www.gpt4help.org/"
+languageCode = "en-us"
+title = "GPT 4 Help"
+theme = "moonbooth-seo-theme"
+enableRobotsTXT = true
+disableKinds = ['taxonomy', 'term']
+[params]
+	blogFooterLinkText = "Learn more about GPT-4"
+  blogSection = "introduction"
+	blogSectionLinkUrl = "tutorials/introduction"
+
+	color = "#8CF67B"
+	dateMarkedUpdated = true
+	description = "Become a master at GPT-4 for free here!"
+	rssTitle = "GPT-4 Tutorials | gpt4help.org"
+	seoTitle = "GPT-4 tutorials and help site"
+
+	imageProcessingSection = "image-processing"
+	imageProcessingLinkUrl = "tutorials/image-processing"
+	imageProcessingLinkText = "Introduction to Image Processing"
+
+	ga_id = ""
+
+
+[markup]
+	[markup.goldmark.renderer]
+		unsafe = true
+	[markup.tableOfContents]
+		endLevel = 2
+		ordered = false
+		startLevel = 2
+	[markup.highlight]
+		tabWidth = 2
+[minify]
+	disableSVG = true
